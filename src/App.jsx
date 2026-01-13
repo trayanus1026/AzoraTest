@@ -104,7 +104,7 @@ function App() {
           <span className="flex font-medium text-xl leading-[30px] tracking-[1.6px] gap-[13.31px] items-center cursor-pointer">
             <img src="/assets/arrow.svg" alt="arrow" className="w-[27px] h-[21px]" />
             View all superpowers
-            </span>
+          </span>
         </div>
         <div className="flex h-[67.84px] w-full mt-[102px] mb-[89px]">
           <span className="w-1/2 font-semibold text-4xl leading-[51.84px] tracking-[1px]">Your Setapp journey.</span>
@@ -112,6 +112,140 @@ function App() {
         </div>
       </div>
       {/* End section2 */}
+
+      {/* Start section3 */}
+      <div className="flex flex-col bg-[#FEFEFE] mt-[520px] h-[1500px] relative">
+        <div className="absolute left-[40px] top-[-400px] bg-[#765070] rounded-[20px] h-[720px] w-[1355px]">
+          <div className="flex relative">
+            <img src="/assets/image67.png" alt="image67" className="absolute right-[66px] top-[30px] w-[670px] h-[690px]" />
+            <div className="flex flex-col gap-[20.12px] ml-[91px] mt-[209px]">
+              <span className="font-medium text-[26px] leading-[40.04px] tracking-normal text-[#FFFFFF]">Musicians like Jason use Setapp to push the<br />limits of their creativity, dancing through<br />tasks for more time to play.</span>
+              <span className="font-normal text-base leading-none tracking-normal text-[#FFFFFF]">Jason Staczek</span>
+            </div>
+            <img src="/assets/watch.png" alt="watch" className="absolute left-[91px] top-[500px] w-[74px] h-[74px]" />
+            <div className="flex gap-[50px] absolute right-[48px] top-[61.8px]">
+              <img src="/assets/left.svg" alt="left" className="w-[10px] h-[20px]" />
+              <img src="/assets/right.svg" alt="right" className="w-[10px] h-[20px]" />
+            </div>
+          </div>
+        </div>
+        <div className="flex h-[71.8px] gap-[25px] items-center absolute top-[330px] left-[50%] translate-x-[-50%]">
+          <div className="bg-[#1D1D22] rounded-[6px] w-[12px] h-[12px]">
+          </div>
+          <div className="bg-[#D5D4D4] rounded-[6px] w-[12px] h-[12px]">
+          </div>
+          <div className="bg-[#D5D4D4] rounded-[6px] w-[12px] h-[12px]">
+          </div>
+          <div className="bg-[#D5D4D4] rounded-[6px] w-[12px] h-[12px]">
+          </div>
+        </div>
+        <div className="flex flex-col w-full absolute top-[420px]">
+          <div className="flex h-[64.08px] mt-[102px]">
+            <div className="w-1/2">
+              <span className="ml-[130px] font-semibold text-4xl leading-[47.88px] tracking-[1.3px] text-[#26262B]">Setapp in your words.</span>
+            </div>
+            <div className="w-1/2">
+              <div className="flex ">
+                <span className="w-1/2 font-normal text-lg leading-[32.04px] tracking-normal text-[#26262B]">What you say about how Setapp<br />powers you up.</span>
+                <div className="w-1/2 flex gap-[10px] justify-end mr-[130px]">
+                  <img src="/assets/facebook.svg" alt="facebook" className="w-[48px] h-[48px]" />
+                  <img src="/assets/twitter.svg" alt="twitter" className="w-[48px] h-[48px]" />
+                  <img src="/assets/instagram.svg" alt="instagram" className="w-[48px] h-[48px]" />
+                  <img src="/assets/youtube.svg" alt="youtube" className="w-[48px] h-[48px]" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="flex mt-[24.58px] justify-end gap-[50px] mr-[130px]">
+            <img src="/assets/leftblack.svg" alt="left" className="w-[14px] h-[24px]" />
+            <img src="/assets/rightblack.svg" alt="right" className="w-[14px] h-[24px]" />
+          </div>
+          <div className="flex mt-[28px] mx-[137px] gap-[34px]">
+            <div className="flex flex-col bg-[#F5F5F5] rounded-[15px] w-[380px] h-[422.44px]">
+              <div className="flex bg-[#71719A] rounded-[8px] mt-[7px] mx-[7px] h-[299.48px] pt-[38.5px] px-[22px] pb-[38.98px]">
+                <span className="font-medium text-[26px] leading-[36.92px] tracking-normal text-[#FFFFFF]">
+                  Have been using Setapp
+                  for almost two years, and I
+                  have to say it's the best
+                  and the most cost-effective
+                  way of having apps on
+                  Mac.
+                </span>
+              </div>
+              <div className="flex mx-[29px] mt-[38.5px] justify-between">
+                <div className="flex flex-col">
+                  <span className="font-semibold text-lg leading-[32.04px] tracking-normal text-[#26262B]">Arash Pourhabibi</span>
+                  <span className="font-semibold text-sm leading-[24.92px] tracking-normal text-[#9F9F9F]">@ArashPourhabibi</span>
+                </div>
+                <div className="flex items-end">
+                  <img src="/assets/twittericon.png" alt="twittericon" className="w-[22px] h-[32.04px] " />
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col bg-[#F5F5F5] rounded-[15px] w-[380px] h-[422.44px]">
+              <div className="flex bg-[#D9AE89] rounded-[8px] mt-[7px] mx-[7px] h-[299.48px] pt-[38.5px] px-[22px] pb-[38.98px]">
+                <span className="font-medium text-[26px] leading-[36.92px] tracking-normal text-[#FFFFFF]">
+                  My favorites ❤️ from
+                  @Setapp Ulysses,
+                  CleanMyMac X, Paste,
+                  MindNode, Swift
+                  Publisher.
+                </span>
+              </div>
+              <div className="flex mx-[29px] mt-[38.5px] justify-between">
+                <div className="flex flex-col">
+                  <span className="font-semibold text-lg leading-[32.04px] tracking-normal text-[#26262B]">Mauricio Sanchez</span>
+                  <span className="font-semibold text-sm leading-[24.92px] tracking-normal text-[#9F9F9F]">@m741s </span>
+                </div>
+                <div className="flex items-end">
+                  <img src="/assets/instagramicon.png" alt="instagramicon" className="w-[19 px] h-[32.04px] " />
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col bg-[#F5F5F5] rounded-[15px] w-[380px] h-[422.44px]">
+              <div className="flex bg-[#765070] rounded-[8px] mt-[7px] mx-[7px] h-[299.48px] pt-[38.5px] px-[22px] pb-[38.98px]">
+                <span className="font-medium text-[26px] leading-[36.92px] tracking-normal text-[#FFFFFF]">
+                  For those of you that
+                  wonder where I
+                  discover/get all the
+                  awesome apps for my Mac
+                  that I use, a lot of them are
+                  from Setapp!
+                </span>
+              </div>
+              <div className="flex mx-[29px] mt-[38.5px] justify-between">
+                <div className="flex flex-col">
+                  <span className="font-semibold text-lg leading-[32.04px] tracking-normal text-[#26262B]">Meredith Sweet</span>
+                  <span className="font-semibold text-sm leading-[24.92px] tracking-normal text-[#9F9F9F]">@meredith.sweet.silberstein</span>
+                </div>
+                <div className="flex items-end">
+                  <img src="/assets/facebookicon.png" alt="facebookicon" className="w-[9px] h-[32.04px] " />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="flex mx-auto h-[71.8px] gap-[25px] items-center mt-[28.99px]">
+            <div className="bg-[#1D1D22] rounded-[6px] w-[12px] h-[12px]">
+            </div>
+            <div className="bg-[#D5D4D4] rounded-[6px] w-[12px] h-[12px]">
+            </div>
+            <div className="bg-[#D5D4D4] rounded-[6px] w-[12px] h-[12px]">
+            </div>
+            <div className="bg-[#D5D4D4] rounded-[6px] w-[12px] h-[12px]">
+            </div>
+            <div className="bg-[#D5D4D4] rounded-[6px] w-[12px] h-[12px]">
+            </div>
+            <div className="bg-[#D5D4D4] rounded-[6px] w-[12px] h-[12px]">
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col w-full absolute top-[1000px]">
+          <div className="flex bg-[#F5F5F5] rounded-[20px] h-[587.89px] ">
+
+          </div>
+        </div>
+      </div>
+      {/* End section3 */}
     </div>
   )
 }
