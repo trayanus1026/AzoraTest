@@ -114,7 +114,7 @@ function App() {
       {/* End section2 */}
 
       {/* Start section3 */}
-      <div className="flex flex-col bg-[#FEFEFE] mt-[520px] h-[1500px] relative">
+      <div className="flex flex-col bg-[#FEFEFE] mt-[520px] h-[1550px] relative">
         <div className="absolute left-[40px] top-[-400px] bg-[#765070] rounded-[20px] h-[720px] w-[1355px]">
           <div className="flex relative">
             <img src="/assets/image67.png" alt="image67" className="absolute right-[66px] top-[30px] w-[670px] h-[690px]" />
@@ -224,7 +224,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="flex mx-auto h-[71.8px] gap-[25px] items-center mt-[28.99px]">
+          <div className="flex mx-auto h-[71.8px] gap-[25px] items-center mt-[10px]">
             <div className="bg-[#1D1D22] rounded-[6px] w-[12px] h-[12px]">
             </div>
             <div className="bg-[#D5D4D4] rounded-[6px] w-[12px] h-[12px]">
@@ -238,14 +238,126 @@ function App() {
             <div className="bg-[#D5D4D4] rounded-[6px] w-[12px] h-[12px]">
             </div>
           </div>
-        </div>
-        <div className="flex flex-col w-full absolute top-[1000px]">
-          <div className="flex bg-[#F5F5F5] rounded-[20px] h-[587.89px] ">
-
+          <div className="border-t border-t-[#929294] mt-[6px]">
           </div>
         </div>
       </div>
       {/* End section3 */}
+
+      {/* Start section4 */}
+      <div className="flex flex-col bg-[#2B2D32] h-[935px] relative">
+        <div className="flex-col left-[50px] right-[50px] absolute top-[-300px]">
+          <div className="flex flex-col bg-[#F5F5F5] rounded-[20px] h-[587.89px] ">
+            <img src="/assets/setapp-logo.svg" alt="setapp-logo" className="mt-[124px] ml-[75px] w-[76px] h-[120px]" />
+            <span className="mt-[21px] ml-[75px] font-semibold text-[46px] leading-[59.8px] tracking-[1.3px] text-[#26262B]">
+              Superpowers starting $9.99/month.<br />
+              Free for 7 days.
+            </span>
+            <div className="flex mt-[60.59px] ml-[75px]">
+              <button className="bg-[#26262B] text-[#FFFFFF] rounded-[6px] py-[13px] pl-[31px] pr-[31.41px] cursor-pointer font-normal text-base leading-[24px] tracking-[1px]">
+                Get started now
+              </button>
+              <button className="ml-[24.5px] bg-[#F5F5F5] text-[#26262B] border border-[#26262B] rounded-[6px] py-[13px] pr-[31.57px] pl-[31px] cursor-pointer hover:opacity-90 font-normal text-base leading-[24px] tracking-[1px]">
+                More about Setapp
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div className="border-t border-t-[#606165] mt-[310px] pt-[60px] px-[30px]">
+          <div className="flex mx-[10px]">
+            <div className="w-1/2">
+              <div className="flex flex-col">
+                <div className="flex h-[32px]">
+                  <img src="/assets/div.logo.svg" alt="div.logo" className="w-[440px] h-[32px]" />
+                </div>
+                <span className="mt-[78px] font-normal text-base leading-[28.48px] tracking-normal text-[#FFFFFF]">
+                  Updates from our team, written with love
+                </span>
+                <div className="flex mt-[24px] items-center rounded-lg overflow-hidden w-[440px] h-[50.23px]">
+                  <input
+                    type="email"
+                    placeholder="Enter your email"
+                    className="bg-[#404547] text-[#9D9CA2] rounded-l-lg px-4 py-3 flex-1 outline-none"
+                  />
+                  <button className="cursor-pointer">
+                    <img src="/assets/subscribe.png" alt="subscribe" className="w-[54px] h-[50.23px]" />
+                  </button>
+                </div>
+              </div>
+
+            </div>
+            <div className="w-1/2 flex font-normal text-base leading-[32px] tracking-normal text-[#FFFFFF]">
+              <div className="flex flex-col w-1/3 ">
+                <a href="#" className="no-underline ">Home</a>
+                <a href="#" className="no-underline ">How It Works</a>
+                <a href="#" className="no-underline ">All Apps</a>
+                <a href="#" className="no-underline ">Pricing</a>
+                <a href="#" className="no-underline ">Setapp for Teams</a>
+                <a href="#" className="no-underline ">Blog</a>
+                <a href="#" className="no-underline ">Podcast</a>
+                <a href="#" className="no-underline ">Download</a>
+              </div>
+              <div className="flex flex-col w-1/3 ">
+                <a href="#" className="no-underline ">About</a>
+                <a href="#" className="no-underline ">Support</a>
+                <a href="#" className="no-underline ">Education Discount</a>
+                <a href="#" className="no-underline ">Family Plan</a>
+                <a href="#" className="no-underline ">For Developers</a>
+                <a href="#" className="no-underline ">Gift Cards</a>
+                <a href="#" className="no-underline ">Redeem Card or code</a>
+                <a href="#" className="no-underline ">Setapp Reviews</a>
+                <a href="#" className="no-underline ">Affiliate Program</a>
+                <a href="#" className="no-underline ">Mac Developer Survey 2023</a>
+              </div>
+              <div className="flex flex-col w-1/3 ">
+                <a href="#" className="no-underline ">Getting started with Setapp</a>
+                <a href="#" className="no-underline ">Remote access to other Mac</a>
+                <a href="#" className="no-underline ">Fix macOS Ventura</a>
+                <a href="#" className="no-underline ">problems</a>
+                <a href="#" className="no-underline ">Best productivity apps</a>
+                <a href="#" className="no-underline ">Best YouTube downloaders</a>
+                <a href="#" className="no-underline ">Uninstall apps</a>
+              </div>
+            </div>
+          </div>
+          <div className="flex mt-[41.24px] justify-between">
+            <div className="flex font-[Arial]">
+              <button className="bg-[#969799] font-bold text-[11px] leading-[26px] tracking-normal cursor-pointer w-[41px] h-[26px]">
+                DMCA
+              </button>
+              <button className="bg-[#404547] font-bold text-[11px] leading-[26px] tracking-normal cursor-pointer w-[83.84px] h-[26px]">
+                PROTECTED
+              </button>
+            </div>
+            <div className="flex items-center">
+              <img src="/assets/en.svg" alt="en" className="w-[18px] h-[14px]" />
+              <span className="ml-[22px] font-normal text-base leading-[28.48px] tracking-normal text-[#FFFFFF]">
+                English
+              </span>
+              <img src="/assets/downarrow.svg" alt="downarrow" className="ml-[10px] w-[10px] h-[10px]" />
+            </div>
+          </div>
+          <div className="flex border-t-2 border-t-[#88898b] mt-[60px] pt-[24px]">
+            <div className="flex flex-col w-1/2">
+              <span className="font-normal text-xs leading-[21.36px] tracking-normal text-[#FFFFFF]">
+                © 2023 Setapp Limited, 9 Tallow Street, Youghal, Co. Cork, P36YE14, Ireland. Reg. 584165. VAT ID: IE3425001BH
+              </span>
+              <div className="flex mt-[24px] gap-[12.67px] font-normal text-xs leading-[21.36px] tracking-normal text-[#969799]">
+                <a href="#" className="no-underline ">Terms of Use</a>``
+                <a href="#" className="no-underline ">Privacy Policy</a>
+              </div>
+            </div>
+            <div className="flex w-1/2 justify-end gap-[10px]">
+              <img src="/assets/facebookfoot.svg" alt="facebookfoot" className="w-[26px] h-[26px]" />
+              <img src="/assets/twitterfoot.svg" alt="twitterfoot" className="w-[26px] h-[26px]" />
+              <img src="/assets/instagramfoot.svg" alt="instagramfoot" className="w-[26px] h-[26px]" />
+              <img src="/assets/youtubefoot.svg" alt="youtubefoot" className="w-[26px] h-[26px]" />
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* End section4 */}
     </div>
   )
 }
